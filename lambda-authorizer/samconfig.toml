@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "lambda-authorizer-example"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-12gb0we16by3l"
+s3_prefix = "lambda-authorizer-example"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
